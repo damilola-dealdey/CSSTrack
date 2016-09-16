@@ -1,0 +1,91 @@
+body{
+  background-color: gray;
+  margin-top: 0px;
+}
+
+div.container{
+  min-width: 1000px;
+  width: 1000px;
+  margin: auto;
+  margin-top: 0px;
+}
+
+div.header{
+  background: #b2e7ff;
+  font-family: "Tahoma";
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  border-bottom: 2px solid #0ab1ff;
+}
+
+  div.header h1{
+    margin: 0px;
+    padding: 20px 0px;
+  }
+
+div.content{
+  width:100%;
+  margin:0px;
+  padding:0px;
+
+  display: table-row;
+}
+
+div.leftPane{
+  width:230px;
+  max-width: 230px;
+  display: table-cell;
+
+  background: #0ab1ff;
+  padding: 25px 10px;
+}
+
+div.leftPane p:first-of-type{
+  font-size: 18px;
+  font-family: Tahoma;
+  color:black;
+}
+
+div.leftPane li{
+  font-size: 14px;
+  color: white;
+}
+
+div.leftPane p:last-of-type{
+  font-size: 12px;
+  font-family: Tahoma;
+  color:black;
+}
+
+div.rightPane{
+  width:710px;
+  max-width: 710px;
+  display: table-cell;
+  background: #ededed;
+  padding: 20px;
+}
+
+div.rightPane p{
+  font-size: 14px;
+  color: #802525;
+}
+
+div.rightPane p:first-of-type{
+  font-size: 24px;
+  font-family: Tahoma;
+  color:black;
+}
+
+div.footer{
+  background: #3cff78;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  border-bottom: 2px solid #0ab1ff;
+}
+
+  div.footer h3{
+    margin-top: 0px;
+    padding-top: 15px;
+  }
